@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Admission</h1>
+    <form id="admission-form">
+        <label for="admissionType">Admission Type:</label>
+        <select id="admissionType" name="admissionType">
+            <option value="Cash">Cash</option>
+            <option value="Insurance">Insurance</option>
+            <option value="Arogyasri">Arogyasri</option>
+            <option value="EHS">EHS</option>
+        </select>
+        <label for="patientName">Name of the Patient:</label>
+        <input type="text" id="patientName" name="patientName" required>
+        <label for="contactNumber">Contact Number:</label>
+        <input type="tel" id="contactNumber" name="contactNumber" required>
+        <label for="attendant">Attendant:</label>
+        <input type="text" id="attendant" name="attendant" required>
+        <label for="attendantContact">Contact Number of Attendant:</label>
+        <input type="tel" id="attendantContact" name="attendantContact" required>
+        <label for="admissionDate">Date of Admission:</label>
+        <input type="date" id="admissionDate" name="admissionDate" required>
+        <label for="procedureName">Procedure Name:</label>
+        <input type="text" id="procedureName" name="procedureName" required>
+        <label for="roomNumber">Room Number/Bed Number:</label>
+        <input type="text" id="roomNumber" name="roomNumber" required>
+        <button type="submit">Submit</button>
+    </form>
+    <a href="index.html">Back to Home</a>
+    <script src="js/admission.js"></script>
+</body>
+</html>

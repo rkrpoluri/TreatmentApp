@@ -1,0 +1,17 @@
+{
+  "name": "treatmentapp",
+  "version": "1.0.0",
+  "description": "A treatment application as a Progressive Web App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["treatment", "pwa", "healthcare"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "lite-server": "^2.6.1"
+  }
+}
